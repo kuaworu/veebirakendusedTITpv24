@@ -1,0 +1,68 @@
+header h1{
+    border: dotted 1px blue; /*dashed, outline, double, soolid, ääris*/
+    padding: 5%; /*vahe tekstist ääriseni*/
+    margin: 5px;
+    border-radius: 40px;
+    width: 40%; /*laius*/
+    background-color: lavender; /*tausta värv*/
+    letter-spacing: 0.1cm;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcoral;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+li a:hover{ /*lingid fookuses*/
+background-color: aliceblue;
+}
+footer{
+    test-alighn: center;
+    /* margin: 20%;*/
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+section{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    background-color: aliceblue;
+}
+section h2{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    background-color: aliceblue;
+}
+section h3{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    background-color: aliceblue;
+}
+section h4{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    background-color: aliceblue;
+}
