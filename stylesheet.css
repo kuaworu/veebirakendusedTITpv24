@@ -1,10 +1,10 @@
 header h1{
-    border: dotted 1px blue; /*dashed, outline, double, soolid, ääris*/
+    border: dotted 1px rgb(162, 236, 255); /*dashed, outline, double, soolid, ääris*/
     padding: 5%; /*vahe tekstist ääriseni*/
     margin: 5px;
     border-radius: 40px;
     width: 40%; /*laius*/
-    background-color: lavender; /*tausta värv*/
+    background-color: rgb(162, 236, 255); /*tausta värv*/
     letter-spacing: 0.1cm;
     font-variant: small-caps;
 }
@@ -13,7 +13,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightcoral;
+    background-color: rgb(162, 236, 255);
 }
 li{
     float: left;
@@ -26,13 +26,8 @@ li a{
     color: black;
     padding: 10px;
 }
-li a:hover{ /*lingid fookuses*/
-background-color: aliceblue;
-}
 footer{
-    test-alighn: center;
-    /* margin: 20%;*/
-    background-color: lightcoral;
+    background-color: rgb(162, 236, 255);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -43,26 +38,22 @@ section{
     color: black;
     padding: 5px;
     margin: 0;
-    background-color: aliceblue;
 }
 section h2{
     text-decoration: none;
     color: black;
     padding: 5px;
     margin: 0;
-    background-color: aliceblue;
 }
 section h3{
     text-decoration: none;
     color: black;
     padding: 5px;
     margin: 0;
-    background-color: aliceblue;
 }
 section h4{
     text-decoration: none;
     color: black;
     padding: 5px;
     margin: 0;
-    background-color: aliceblue;
 }
