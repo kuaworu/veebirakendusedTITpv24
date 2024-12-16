@@ -1,0 +1,19 @@
+table#lihtne, td{
+/*html failis id=lihtne*/
+    width: 60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: rgb(162, 236, 255);
+}
+
+table#lihtne2, table#lihtne2 td{
+    /*html failis id=lihtne*/
+    width: 60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: rgb(162, 236, 255);
+}
