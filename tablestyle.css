@@ -23,9 +23,9 @@ table#table2, table#table2, td{
     }
 #table2 tr:nth-child(1) td:nth-child(1){
     background-color: red;
-    wirth:20%;
+    wirth: 20%;
     }
 #table2 tr:nth-child(1) td:nth-child(2){
     background-color: pink;
-    wirth:20%;
+    wirth: 20%;
     }
