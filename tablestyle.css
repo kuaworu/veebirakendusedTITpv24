@@ -7,7 +7,6 @@ table#lihtne, td{
     /*border-collapse: collapse;*/
     background-color: rgb(162, 236, 255);
 }
-
 table#lihtne2, table#lihtne2 td{
     /*html failis id=lihtne*/
     width: 60%;
@@ -17,3 +16,16 @@ table#lihtne2, table#lihtne2 td{
     /*border-collapse: collapse;*/
     background-color: rgb(162, 236, 255);
 }
+table#table2, table#table2, td{
+    border-collapse: collapse;
+    width: 250px;
+    height: 50px;
+    }
+#table2 tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+    wirth:20%;
+    }
+#table2 tr:nth-child(1) td:nth-child(2){
+    background-color: pink;
+    wirth:20%;
+    }
