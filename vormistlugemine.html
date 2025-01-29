@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormist lugemine</title>
+  <script src="vormscript.js"></script>
+  <link rel="stylesheet" href="vorm.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+  <label for="nimi">Sisesta nimi</label>
+  <input type="text" name="nimi" id="nimi">
+  <br>
+  <br>
+  <label for="pnimi">Sisesta perekonnanimi</label>
+  <input type="text" name="pnimi" id="pnimi">
+  <br>
+  <br>
+  <!--raadio nupp-->
+  <strong>Vali sugu:</strong>
+  <br>
+  <input type="radio" name="sugu" id="mees">
+  <label for="mees">mees</label>
+  <br>
+  <input type="radio" name="sugu" id="naine">
+  <label for="naine">naine</label>
+  <br><br>
+  <img src="Allalaaditud fail.jpg" height="192" width="204" alt="" id="pilt">
+  <br>
+  <label for="synnipaev">Vali sinu sünnipäev:</label>
+  <input type="date" name="synnipaev" id="synnipaev">
+  <br><br>
+  <label for="number">sisestage kaardi number</label>
+  <input type="number" name="number" id="number">
+  <br><br>
+  <label for="email">sisestage oma email</label>
+  <input type="email" name="number" id="email">
+  <br><br>
+  <label for="tel">sisestage oma tel</label>
+  <input type="tel" name="tel" id="tel">
+  <br><br>
+  <label for="url">sisestage oma url</label>
+  <input type="url" name="url" id="url">
+  <br><br>
+  <!--ripp loenad-->
+  <label for="linn2">Kus sa elad?</label>
+  <select name="linn" id="linn2" onchange="selectValik()">
+    <option value="">vali linn...</option>
+    <option value="Tallinn">Tallinn</option>
+    <option value="Tartu">Tartu</option>
+    <option value="Narva">Narva</option>
+    <option value="Paide">Paide</option>
+    <option value="Pärnu">Pärnu</option>
+  </select>
+  <div id="vastus2>"></div>
+  <!--checkbox-->
+  <br>
+  <strong>vali oma hobby</strong>
+  <br>
+  <input type="checkbox" id="sport" value="sport" onclick="checkboxValik()">
+  <label for="sport">Sport</label>
+  <br>
+  <input type="checkbox" id="joonistamine" value="joonistamine" onclick="checkboxValik()">
+  <label for="joonistamine">joonistamine</label>
+  <br>
+  <input type="checkbox" id="muusika" value="muusika">
+  <label for="muusika">muusika</label>
+  <br>
+  <input type="checkbox" id="programeerimine" value="programeerimine" onclick="checkboxValik()">
+  <label for="programeerimine">programeerimine</label>
+  <br>
+  <input type="checkbox" id="lugeda" value="lugeda" onclick="checkboxValik()">
+  <label for="lugeda">lugeda</label>
+  <br>
+  <div id="vastus"></div>
+  <br>
+  <label for="varv">Vali vastuse värv</label>
+  <input type="color" id="varv">
+  <br>
+  <div id="vastus3"></div>
+  <br>
+  <input type="button" value="OK" onclick="lugemine2()">
+</form>
+</body>
+</html>
